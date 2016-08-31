@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, maximum-scale=1, target-densityDPI=device-dpi"/>
+	    <title>Lorem Ipsum</title>
+	    <link href="css/sm-core-css.css" rel="stylesheet" type="text/css" />
+	    <link rel="stylesheet" href="css/style.css">
+	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	    <script type="text/javascript" src="js/jquery.smartmenus.js"></script>
+	    
+	    <script type="text/javascript">
+		    $(function() {
+		    	$('#main-menu').smartmenus({
+					subMenusSubOffsetX: 1,
+					subMenusSubOffsetY: -8,
+					subIndicators: false,
+					noMouseOver: true
+				});
+				$(".submenu-items > li").prop("onclick", null);
+				$(".submenu-items > li").on("click", function (ev) {
+					console.log(ev.target);
+					ev.preventDefault();
+					ev.stopPropagation();
+				});
+			});			
+		</script>
+
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<h1>
+					<svg class="first-svg" width="200px" height="200px" viewBox="0 0 200 200"
+					  xmlns="http://www.w3.org/2000/svg">
+					  <defs>
+					    <filter id="f1" x="0" y="0" width="200%" height="200%">
+					      <feOffset result="offOut" in="SourceGraphic" dx="0" dy="0" />
+					      <feColorMatrix result = "matrixOut" in = "offOut" type = "matrix" values = "0.2 0 0 0 0 0 0.2 0 0 0 0 0 0.2 0 0 0 0 0 1 0"/>
+					      <feGaussianBlur result="blurOut" in="matrixOut" stdDeviation="1.3" />
+					      <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+					    </filter>
+					  </defs>
+					  <polygon
+					    points="35,37.5  37.9,46.1 46.9,46.1  39.7,51.5
+					      42.3,60.1  35,55  27.7,60.1  30.3,51.5
+					      23.1,46.1  32.1,46.1"
+					      style="fill: #b83734; stroke: #be4b48;" filter="url(#f1)"/>
+					</svg>
+					<svg class="second-svg" width="200px" height="200px" viewBox="0 0 200 200"
+					  xmlns="http://www.w3.org/2000/svg">
+					  <polygon
+					    points="35,37.5  37.9,46.1 46.9,46.1  39.7,51.5
+					      42.3,60.1  35,55  27.7,60.1  30.3,51.5
+					      23.1,46.1  32.1,46.1"
+					      style="fill: #b83734; stroke: #be4b48;"/>
+					</svg>
+					<a href="#" class="logo">New lorem ipsum times</a>
+					<span class="mirror">New lorem ipsum times</span>
+				</h1>
+				<nav>
+					<ul id="main-menu" class="sm sm-blue">
+						<li class="menu1"><a href="#">Menu1</a>
+							<ul class="submenu">
+								<li><a href="#">Submenu 1.1</a>
+									<ul class="submenu-items">
+										<li><a href="#">Submenu 1.1 item 1</a>
+											<div class="item"><h3>SUBMENU 1.1 ITEM 1 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 1.1 item 2</a>
+											<div class="item"><h3>SUBMENU 1.1 ITEM 2 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 1.1 item 3</a>
+											<div class="item"><h3>SUBMENU 1.1 ITEM 3 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 1.1 item 4</a>
+											<div class="item"><h3>SUBMENU 1.1 ITEM 4 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+									</ul>
+								</li>
+								<li><a href="#">Submenu 1.2</a>
+									<ul class="submenu-items">
+										<li><a href="#">Submenu 1.2 item 1</a>
+											<div class="item"><h3>SUBMENU 1.2 ITEM 1 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 1.2 item 2</a>
+											<div class="item"><h3>SUBMENU 1.2 ITEM 2 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 1.2 item 3</a>
+											<div class="item"><h3>SUBMENU 1.2 ITEM 3 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 1.2 item 4</a>
+											<div class="item"><h3>SUBMENU 1.2 ITEM 4 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+									</ul>
+								</li>
+								<li><a href="#">Submenu 1.3</a>
+									<ul class="submenu-items">
+										<li><a href="#">Submenu 1.3 item 1</a>
+											<div class="item"><h3>SUBMENU 1.3 ITEM 1 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 1.3 item 2</a>
+											<div class="item"><h3>SUBMENU 1.3 ITEM 2 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 1.3 item 3</a>
+											<div class="item"><h3>SUBMENU 1.3 ITEM 3 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 1.3 item 4</a>
+											<div class="item"><h3>SUBMENU 1.3 ITEM 4 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+									</ul>
+								</li>
+								<li><a href="#">Submenu 1.4</a>
+									<ul class="submenu-items">
+										<li><a href="#">Submenu 1.4 item 1</a>
+											<div class="item"><h3>SUBMENU 1.4 ITEM 1 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 1.4 item 2</a>
+											<div class="item"><h3>SUBMENU 1.4 ITEM 2 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 1.4 item 3</a>
+											<div class="item"><h3>SUBMENU 1.4 ITEM 3 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 1.4 item 4</a>
+											<div class="item"><h3>SUBMENU 1.4 ITEM 4 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li class="menu2"><a href="#">Menu2</a>
+							<ul class="submenu">
+								<li><a href="#">Submenu 2.1</a>
+									<ul class="submenu-items">
+										<li><a href="#">Submenu 2.1 item 1</a>
+											<div class="item"><h3>SUBMENU 2.1 ITEM 1 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 2.1 item 2</a>
+											<div class="item"><h3>SUBMENU 2.1 ITEM 2 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 2.1 item 3</a>
+											<div class="item"><h3>SUBMENU 2.1 ITEM 3 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 2.1 item 4</a>
+											<div class="item"><h3>SUBMENU 2.1 ITEM 4 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+									</ul>
+								</li>
+								<li><a href="#">Submenu 2.2</a>
+									<ul class="submenu-items">
+										<li><a href="#">Submenu 2.2 item 1</a>
+											<div class="item"><h3>SUBMENU 2.2 ITEM 1 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 2.2 item 2</a>
+											<div class="item"><h3>SUBMENU 2.2 ITEM 2 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 2.2 item 3</a>
+											<div class="item"><h3>SUBMENU 2.2 ITEM 3 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 2.2 item 4</a>
+											<div class="item"><h3>SUBMENU 2.2 ITEM 4 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+									</ul>
+								</li>
+								<li><a href="#">Submenu 2.3</a>
+									<ul class="submenu-items">
+										<li><a href="#">Submenu 2.3 item 1</a>
+											<div class="item"><h3>SUBMENU 2.3 ITEM 1 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 2.3 item 2</a>
+											<div class="item"><h3>SUBMENU 2.3 ITEM 2 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 2.3 item 3</a>
+											<div class="item"><h3>SUBMENU 2.3 ITEM 3 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 2.3 item 4</a>
+											<div class="item"><h3>SUBMENU 2.3 ITEM 4 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+									</ul>
+								</li>
+								<li><a href="#">Submenu 2.4</a>
+									<ul class="submenu-items">
+										<li><a href="#">Submenu 2.4 item 1</a>
+											<div class="item"><h3>SUBMENU 2.4 ITEM 1 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 2.4 item 2</a>
+											<div class="item"><h3>SUBMENU 2.4 ITEM 2 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 2.4 item 3</a>
+											<div class="item"><h3>SUBMENU 2.4 ITEM 3 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 2.4 item 4</a>
+											<div class="item"><h3>SUBMENU 2.4 ITEM 4 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li class="menu3"><a href="#">Menu3</a>
+							<ul class="submenu">
+								<li><a href="#">Submenu 3.1</a>
+									<ul class="submenu-items">
+										<li><a href="#">Submenu 3.1 item 1</a>
+											<div class="item"><h3>SUBMENU 3.1 ITEM 1 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 3.1 item 2</a>
+											<div class="item"><h3>SUBMENU 3.1 ITEM 2 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 3.1 item 3</a>
+											<div class="item"><h3>SUBMENU 3.1 ITEM 3 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 3.1 item 4</a>
+											<div class="item"><h3>SUBMENU 3.1 ITEM 4 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+									</ul>
+								</li>
+								<li><a href="#">Submenu 3.2</a>
+									<ul class="submenu-items">
+										<li><a href="#">Submenu 3.2 item 1</a>
+											<div class="item"><h3>SUBMENU 3.2 ITEM 1 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 3.2 item 2</a>
+											<div class="item"><h3>SUBMENU 3.2 ITEM 2 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 3.2 item 3</a>
+											<div class="item"><h3>SUBMENU 3.2 ITEM 3 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 3.2 item 4</a>
+											<div class="item"><h3>SUBMENU 3.2 ITEM 4 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+									</ul>
+								</li>
+								<li><a href="#">Submenu 3.3</a>
+									<ul class="submenu-items">
+										<li><a href="#">Submenu 3.3 item 1</a>
+											<div class="item"><h3>SUBMENU 3.3 ITEM 1 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 3.3 item 2</a>
+											<div class="item"><h3>SUBMENU 3.3 ITEM 2 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 3.3 item 3</a>
+											<div class="item"><h3>SUBMENU 3.3 ITEM 3 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 3.3 item 4</a>
+											<div class="item"><h3>SUBMENU 3.3 ITEM 4 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+									</ul>
+								</li>
+								<li><a href="#">Submenu 3.4</a>
+									<ul class="submenu-items">
+										<li><a href="#">Submenu 3.4 item 1</a>
+											<div class="item"><h3>SUBMENU 3.4 ITEM 1 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 3.4 item 2</a>
+											<div class="item"><h3>SUBMENU 3.4 ITEM 2 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 3.4 item 3</a>
+											<div class="item"><h3>SUBMENU 3.4 ITEM 3 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 3.4 item 4</a>
+											<div class="item"><h3>SUBMENU 3.4 ITEM 4 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li class="menu4"><a href="#">Menu4</a>
+							<ul class="submenu">
+								<li><a href="#">Submenu 4.1</a>
+									<ul class="submenu-items">
+										<li><a href="#">Submenu 4.1 item 1</a>
+											<div class="item"><h3>SUBMENU 4.1 ITEM 1 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 4.1 item 2</a>
+											<div class="item"><h3>SUBMENU 4.1 ITEM 2 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 4.1 item 3</a>
+											<div class="item"><h3>SUBMENU 4.1 ITEM 3 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 4.1 item 4</a>
+											<div class="item"><h3>SUBMENU 4.1 ITEM 4 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+									</ul>
+								</li>
+								<li><a href="#">Submenu 4.2</a>
+									<ul class="submenu-items">
+										<li><a href="#">Submenu 4.2 item 1</a>
+											<div class="item"><h3>SUBMENU 4.2 ITEM 1 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 4.2 item 2</a>
+											<div class="item"><h3>SUBMENU 4.2 ITEM 2 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 4.2 item 3</a>
+											<div class="item"><h3>SUBMENU 4.2 ITEM 3 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 4.2 item 4</a>
+											<div class="item"><h3>SUBMENU 4.2 ITEM 4 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+									</ul>
+								</li>
+								<li><a href="#">Submenu 4.3</a>
+									<ul class="submenu-items">
+										<li><a href="#">Submenu 4.3 item 1</a>
+											<div class="item"><h3>SUBMENU 4.3 ITEM 1 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 4.3 item 2</a>
+											<div class="item"><h3>SUBMENU 4.3 ITEM 2 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 4.3 item 3</a>
+											<div class="item"><h3>SUBMENU 4.3 ITEM 3 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 4.3 item 4</a>
+											<div class="item"><h3>SUBMENU 4.3 ITEM 4 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+									</ul>
+								</li>
+								<li><a href="#">Submenu 4.4</a>
+									<ul class="submenu-items">
+										<li><a href="#">Submenu 4.4 item 1</a>
+											<div class="item"><h3>SUBMENU 4.4 ITEM 1 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 4.4 item 2</a>
+											<div class="item"><h3>SUBMENU 4.4 ITEM 2 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 4.4 item 3</a>
+											<div class="item"><h3>SUBMENU 4.4 ITEM 3 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 4.4 item 4</a>
+											<div class="item"><h3>SUBMENU 4.4 ITEM 4 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li class="menu5"><a href="#">Menu5</a>
+							<ul class="submenu">
+								<li><a href="#">Submenu 5.1</a>
+									<ul class="submenu-items">
+										<li><a href="#">Submenu 5.1 item 1</a>
+											<div class="item"><h3>SUBMENU 5.1 ITEM 1 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 5.1 item 2</a>
+											<div class="item"><h3>SUBMENU 5.1 ITEM 2 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 5.1 item 3</a>
+											<div class="item"><h3>SUBMENU 5.1 ITEM 3 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 5.1 item 4</a>
+											<div class="item"><h3>SUBMENU 5.1 ITEM 4 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+									</ul>
+								</li>
+								<li><a href="#">Submenu 5.2</a>
+									<ul class="submenu-items">
+										<li><a href="#">Submenu 5.2 item 1</a>
+											<div class="item"><h3>SUBMENU 5.2 ITEM 1 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 5.2 item 2</a>
+											<div class="item"><h3>SUBMENU 5.2 ITEM 2 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 5.2 item 3</a>
+											<div class="item"><h3>SUBMENU 5.2 ITEM 3 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 5.2 item 4</a>
+											<div class="item"><h3>SUBMENU 5.2 ITEM 4 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+									</ul>
+								</li>
+								<li><a href="#">Submenu 5.3</a>
+									<ul class="submenu-items">
+										<li><a href="#">Submenu 5.3 item 1</a>
+											<div class="item"><h3>SUBMENU 5.3 ITEM 1 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 5.3 item 2</a>
+											<div class="item"><h3>SUBMENU 5.3 ITEM 2 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 5.3 item 3</a>
+											<div class="item"><h3>SUBMENU 5.3 ITEM 3 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 5.3 item 4</a>
+											<div class="item"><h3>SUBMENU 5.3 ITEM 4 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+									</ul>
+								</li>
+								<li><a href="#">Submenu 5.4</a>
+									<ul class="submenu-items">
+										<li><a href="#">Submenu 5.4 item 1</a>
+											<div class="item"><h3>SUBMENU 5.4 ITEM 1 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 5.4 item 2</a>
+											<div class="item"><h3>SUBMENU 5.4 ITEM 2 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 5.4 item 3</a>
+											<div class="item"><h3>SUBMENU 5.4 ITEM 3 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 5.4 item 4</a>
+											<div class="item"><h3>SUBMENU 5.4 ITEM 4 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li class="menu6"><a href="#">Menu6</a>
+							<ul class="submenu">
+								<li><a href="#">Submenu 6.1</a>
+									<ul class="submenu-items">
+										<li><a href="#">Submenu 6.1 item 1</a>
+											<div class="item"><h3>SUBMENU 6.1 ITEM 1 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 6.1 item 2</a>
+											<div class="item"><h3>SUBMENU 6.1 ITEM 2 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 6.1 item 3</a>
+											<div class="item"><h3>SUBMENU 6.1 ITEM 3 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 6.1 item 4</a>
+											<div class="item"><h3>SUBMENU 6.1 ITEM 4 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+									</ul>
+								</li>
+								<li><a href="#">Submenu 6.2</a>
+									<ul class="submenu-items">
+										<li><a href="#">Submenu 6.2 item 1</a>
+											<div class="item"><h3>SUBMENU 6.2 ITEM 1 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 6.2 item 2</a>
+											<div class="item"><h3>SUBMENU 6.2 ITEM 2 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 6.2 item 3</a>
+											<div class="item"><h3>SUBMENU 6.2 ITEM 3 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 6.2 item 4</a>
+											<div class="item"><h3>SUBMENU 6.2 ITEM 4 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+									</ul>
+								</li>
+								<li><a href="#">Submenu 6.3</a>
+									<ul class="submenu-items">
+										<li><a href="#">Submenu 6.3 item 1</a>
+											<div class="item"><h3>SUBMENU 6.3 ITEM 1 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate installed base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 6.3 item 2</a>
+											<div class="item"><h3>SUBMENU 6.3 ITEM 2 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate installed base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 6.3 item 3</a>
+											<div class="item"><h3>SUBMENU 6.3 ITEM 3 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate installed base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 6.3 item 4</a>
+											<div class="item"><h3>SUBMENU 6.3 ITEM 4 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate installed base manufactured products for business</p></div>
+										</li>
+									</ul>
+								</li>
+								<li><a href="#">Submenu 6.4</a>
+									<ul class="submenu-items">
+										<li><a href="#">Submenu 6.4 item 1</a>
+											<div class="item"><h3>SUBMENU 6.4 ITEM 1 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate installed base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 6.4 item 2</a>
+											<div class="item"><h3>SUBMENU 6.4 ITEM 2 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate installed base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 6.4 item 3</a>
+											<div class="item"><h3>SUBMENU 6.4 ITEM 3 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate installed base manufactured products for business</p></div>
+										</li>
+										<li><a href="#">Submenu 6.4 item 4</a>
+											<div class="item"><h3>SUBMENU 6.4 ITEM 4 DESCRIPTION:</h3>
+											<p><mark>Credibly target</mark> quality bandwidth via competitive bandwidth.Energistically parallel task ethical channels and reliable content. Credibly generate <mark class="red">installed</mark> base manufactured products for business</p></div>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</header>
+			<footer>
+				<p>
+					<a href="http://jigsaw.w3.org/css-validator/check/referer">
+				    	<img style="border:0;width:88px;height:31px"
+				        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+				        alt="Правильний CSS!" />
+				    </a>
+				</p>
+			</footer>
+		</div>	
+	</body>
+</html>

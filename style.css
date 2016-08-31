@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/HelveticaNeue.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/HelveticaNeue.woff') format('woff'),
+    url('../fonts/HelveticaNeue.ttf')  format('truetype'),
+    url('../fonts/HelveticaNeue.svg#HelveticaNeue') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FuturaPT-Heavy';
+    src: url('../fonts/FuturaPT-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FuturaPT-Heavy.otf')  format('opentype'),
+    url('../fonts/FuturaPT-Heavy.woff') format('woff'),
+    url('../fonts/FuturaPT-Heavy.ttf')  format('truetype'),
+    url('../fonts/FuturaPT-Heavy.svg#FuturaPT-Heavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FuturaDemiC';
+    src: url('../fonts/FuturaDemiC.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FuturaDemiC.otf')  format('opentype'),
+    url('../fonts/FuturaDemiC.woff') format('woff'),
+    url('../fonts/FuturaDemiC.ttf')  format('truetype'),
+    url('../fonts/FuturaDemiC.svg#FuturaDemiC') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*GENERAL RESET*/
+img {
+    border-style: none;
+    display: block;
+}
+input, select, textarea {
+    vertical-align: middle;
+    font: 100% arial, helvetica, sans-serif;
+    resize: none;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, p, figure {
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*GENERAL SETTINGS*/
+html{
+    font-size: 62.5%;
+}
+body {
+	font: 2rem/1 'FuturaDemiC', sans-serif;
+}
+.wrapper {
+	max-width: 1300px;
+	margin: 0 auto;
+}
+.header {
+	text-align: center;
+}
+.header h1 {
+	text-transform: uppercase;
+	font-family: 'HelveticaNeue', sans-serif;
+}
